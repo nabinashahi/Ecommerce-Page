@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebuddy Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- nav-top -->
+        <div class="nav-top py-5">
+            <div class="container m-auto">
+                <div class="flex justify-between">
+                    <div class="flex items-center">
+                        <p class="mr-3">Connect with us</p>
+                        <ul class="flex list-logo">
+                            <li>
+                                <a href="" class="logo">
+                                    <img src="images/facebook-1-svgrepo-com.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="logo">
+                                    <img src="images/instagram-1-svgrepo-com.svg" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="logo">
+                                    <img src="images/twitter-color-svgrepo-com 1.svg" alt="twitter">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="list-bordered">
+                        <li>USD</li>
+                        <li>English</li>
+                        <li>Tracking order</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- nav-middle -->
+        <div class="nav-middle py-5">
+            <div class="container m-auto">
+                <div class="flex justify-between">
+                    <div>
+                        <a href="">
+                            <img src="images/Logo.png" alt="logo">
+                        </a>
+
+                    </div>
+                    <div class="flex">
+
+                        <input type="search" placeholder="Search for products..."
+                            class="py-2 px-4 border border-gray-300 focus:outline-none focus:border-blue-500 rounded-l-md flex-1 input-search">
+                        <ul class="list-bordered ml-11">
+                            <li>
+                                <img class="inline" src="images/user.png" alt="">
+                                <span>
+                                    Login / Sign up
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/love.svg" alt="">
+                            </li>
+                            <li>
+                                <img src="images/cart.svg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- nav-bottom -->
+        <div class="nav-bottom py-6">
+            <div class="container m-auto">
+                <div class="flex justify-between">
+                    <div class="flex">
+
+                        <img src="images/hamburger.svg" alt="">
+                        <p class="ml-1">Browse Categories</p>
+                    </div>
+                    <ul class="flex list-nav mr-3">
+                        <li>Home</li>
+                        <li>Product</li>
+                        <li>Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--nav-->
+    <!--main-->
+    <main>
+        <div class="container m-auto">
+            <ul class="flex pt-6 border-b pb-2">
+                <li class="mr-3">Home</li>
+                <li class="underline">Products</li>
+            </ul>
+        </div>
+        <div class="py-6">
+            <div class="container m-auto">
+                <div class="grid grid-cols-12">
+                    <div class="col-span-4">
+                        <p class="text-2xl font-semibold pb-5">Products Categories</p>
+                        <div class="checkbox-container flex items-center pb-3">
+                            <input type="checkbox" class="form-checkbox h-4 w-4">
+                            <span class="ml-4">Men</span>
+                        </div>
+                        <div class="checkbox-container flex items-center pb-3">
+                            <input type="checkbox" class="form-checkbox h-4 w-4">
+                            <span class="font-regular ml-4">Women</span>
+                        </div>
+                        <div class="checkbox-container flex items-center pb-3">
+                            <input type="checkbox" class="form-checkbox h-4 w-4">
+                            <span class="font-regular ml-4">Bags</span>
+                        </div>
+                        <div class="checkbox-container flex items-center pb-3">
+                            <input type="checkbox" class="form-checkbox h-4 w-4">
+                            <span class="font-regular ml-4">Kids</span>
+                        </div>
+                        <div class="checkbox-container flex items-center pb-3">
+                            <input type="checkbox" class="form-checkbox h-4 w-4">
+                            <span class="font-regular ml-4">Wallets</span>
+                        </div>
+                        <div class="checkbox-container flex items-center">
+                            <input type="checkbox" class="form-checkbox h-4 w-4">
+                            <span class="font-regular ml-4">Kids</span>
+                        </div>
+                        <div class="py-6">
+                            <p class="text-2xl font-semibold pb-5">Price</p>
+                            <input type="number" placeholder="Min" class="w-20 h-9 border px-2 py-1 mr-3">
+                            <input type="number" placeholder="Max" class="w-20 h-9 border px-2 py-1">
+                        </div>
+                        <div class="py-6">
+                            <p class="text-2xl font-semibold pb-5">Size</p>
+                            <div class="checkbox-container flex items-center pb-3">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">XS</span>
+                            </div>
+                            <div class="checkbox-container flex items-center pb-3">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">S</span>
+                            </div>
+                            <div class="checkbox-container flex items-center pb-3">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">M</span>
+                            </div>
+                            <div class="checkbox-container flex items-center pb-3">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">L</span>
+                            </div>
+                            <div class="checkbox-container flex items-center pb-3">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">XL</span>
+                            </div>
+                            <div class="checkbox-container flex items-center pb-3">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">XXL</span>
+                            </div>
+                            <div class="checkbox-container flex items-center">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">XXXL</span>
+                            </div>
+                        </div>
+                        <div class="py-6">
+                            <div class="flex items-center space-x-8 pb-5">
+                                <p class="text-2xl font-semibold mr-20">Colors</p>
+                                <p class="text-2l font-regular underline">View more</p>
+                            </div>
+                            <div class="flex items-center pb-3">
+                                <input type="radio" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">Red</span>
+                            </div>
+                            <div class="flex items-center pb-3">
+                                <input type="radio" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">Blue</span>
+                            </div>
+                            <div class="flex items-center pb-3">
+                                <input type="radio" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">Pink</span>
+                            </div>
+                            <div class="flex items-center pb-3">
+                                <input type="radio" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">Orange</span>
+                            </div>
+                            <div class="flex items-center pb-3">
+                                <input type="radio" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">Yellow</span>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="radio" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">Sky Blue</span>
+                            </div>
+                        </div>
+                        <div class="py-6">
+                            <div class="flex items-center space-x-8 pb-5">
+                                <p class="text-2xl font-semibold mr-20">Colors</p>
+                                <p class="text-2l font-regular">View more</p>
+                            </div>
+                            <div class="checkbox-container flex items-center pb-3">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">Zara</span>
+                            </div>
+                            <div class="checkbox-container flex items-center pb-3">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">Adidas</span>
+                            </div>
+                            <div class="checkbox-container flex items-center pb-3">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">LV</span>
+                            </div>
+                            <div class="checkbox-container flex items-center pb-3">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">Diamond</span>
+                            </div>
+                            <div class="checkbox-container flex items-center pb-3">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">Goldstar</span>
+                            </div>
+                            <div class="checkbox-container flex items-center">
+                                <input type="checkbox" class="form-checkbox h-4 w-4">
+                                <span class="font-regular ml-4">Collab</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-8">
+                        <div class="flex justify-between">
+                            <div>
+                                <button
+                                    class="border border-gray-500 px-4 py-2 rounded hover:bg-gray-100 focus:outline-none focus:border-blue-500">
+                                    Filters
+                                </button>
+                                <span class="ml-3">Showing 1 of 16 out of 40 results</span>
+                            </div>
+                            <div>
+                                <span class="mr-2">Sort by:</span>
+                                <button
+                                    class="border border-gray-500 px-4 py-2 rounded hover:bg-gray-100 focus:outline-none focus:border-blue-500 mr-6">
+                                    Matched by
+                                </button>
+                                <span class="mr-3">View:</span>
+                                <button
+                                    class="border border-gray-500 px-2 py-2 rounded hover:bg-gray-100 focus:outline-none focus:border-blue-500 mr-2">
+                                    <img src="images/2.png">
+                                </button>
+                                <button
+                                    class="border border-gray-500 px-2 py-2 rounded hover:bg-gray-100 focus:outline-none focus:border-blue-500">
+                                    <img src="images/3.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-12 gap-6 py-7">
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/dark pink dress.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Party Dress </p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/pink dress.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Pink Dress</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/kutha.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Pakistani Kurtha</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img relative">
+                                        <img src="images/heel.png" alt="">
+                                        <div class="absolute top-2 right-2">
+                                            <div class="bg-white p-2 mb-3 rounded">
+                                                <img src="images/love.svg" alt="">
+                                            </div>
+                                            <div class="bg-white p-2 mb-3 rounded">
+                                                <img src="images/Vector.svg" alt="">
+                                            </div>
+                                            <div class="bg-white p-2 rounded">
+                                                <img src="images/expand-svgrepo-com 1.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Pencil Heel</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/sandal.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Scandals</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/dress.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Dress</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/cream.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Cream</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/earning.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Earnings</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/jewellery.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Jewellery</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/pink perfume.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Perfume</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/side bag.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Bag</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/jewwl.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Jewel Set</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/watch.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Watch</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/pink dress.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Pink Dress</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/dress.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Dress</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-3">
+                                <div class="product-container">
+                                    <div class="product-img">
+                                        <img src="images/jewellery.png" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="font-semibold">Jewellery</p>
+                                        <div class="flex py-3">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <img src="images/star.svg" alt="">
+                                            <p class="ml-2">(70)</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p class=" font-medium">$139.45</p>
+                                            <del class="ml-4">$175.56</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center space-x-2 py-8">
+                            <button class="h-8 w-8 p-1 rounded hover:bg-gray-500"><img src="images/left side.svg"
+                                    alt=""></button>
+                            <div class="space-x-4">
+                                <button class="hover:bg-gray-500 px-2 rounded">1</button>
+                                <button class="bg-blue-700 text-white px-2 rounded">2</button>
+                                <button class="hover:bg-gray-500 px-2 rounded">3</button>
+                            </div>
+                            <button class="h-8 w-8 p-1 rounded hover:bg-gray-500"><img src="images/right side.svg"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="p-10 bg-gray-50 text-gray-800">
+            <div class="container m-auto">
+                <div class="grid lg:grid-cols-5 gap-6">
+                    <div class="mb-5">
+                        <p class="text-2xl font-semibold pb-6">Main</p>
+                        <ul>
+                            <li class="pb-4">Homepage</li>
+                            <li class="pb-4">Products</li>
+                            <li class="pb-4">Blog</li>
+                            <li class="pb-4">Contact Us</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-5">
+                        <p class="text-2xl font-semibold pb-6">Categories</p>
+                        <ul>
+                            <li class="pb-4">Women's Fashion</li>
+                            <li class="pb-4">Men's Fashion</li>
+                            <li class="pb-4">Watch & Accessories</li>
+                            <li class="pb-4">Electronic Devices</li>
+                            <li class="pb-4">Homes & Lifestyle</li>
+                            <li class="pb-4">Sports & Outdoors</li>
+                            <li class="pb-4">TV & Appliances</li>
+                            <li class="pb-4">Bags & Shoes</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <p class="text-2xl font-semibold pb-6">Support</p>
+                        <ul class="pb-4">
+                            <li class="pb-4">Payment Guide</li>
+                            <li class="pb-4">Help Center</li>
+                            <li class="pb-4">Privacy Policy</li>
+                            <li class="pb-4">Return Policy</li>
+                            <li class="pb-4">FAQs</li>
+                        </ul>
+                    </div>
+                    <div class="pb-6">
+                        <p class="text-2xl font-semibold pb-6">Payment Method</p>
+                        <div class="flex mr-4">
+                            <img src="images/mastercard-svgrepo-com 1.svg">
+                            <img src="images/visa-svgrepo-com 1.svg">
+                            <img src="images/paypal2.svg">
+                        </div>
+                    </div>
+                    <div class="pb-6">
+                        <p class="text-2xl font-semibold pb-6">Connect With Us</p>
+                        <ul class="flex list-logo">
+                            <li>
+                                <a href="" class="logo">
+                                    <img src="images/facebook-1-svgrepo-com.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="logo">
+                                    <img src="images/instagram-1-svgrepo-com.svg" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="logo">
+                                    <img src="images/twitter-color-svgrepo-com 1.svg" alt="twitter">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-10 bg-black text-white">
+            <div class="container m-auto">
+                <div class="flex justify-between">
+
+                    <div class="flex">
+                        <div class="mb-5">
+                            <a href="">
+                                <img src="images/white logo.png" alt="logo">
+                            </a>
+                            <p class="font-regular">@Copyright.ALL RESERVED</p>
+                        </div>
+                        <div class="pb-4 ml-12">
+                            <div class="flex pb-4">
+                                <img src="images/Pin Icon.svg" alt="">
+                                <p class="ml-4">123 Main Street Chicago,LLC<br> 60601 United States </p>
+                            </div>
+                            <div class="flex pb-4">
+                                <img src="images/Phone Icon.svg" alt="">
+                                <p class="ml-4">+1 (312) 555-1234</p>
+                            </div>
+                            <div class="flex pb-4">
+                                <img src="images/Email Icon.png" alt="">
+                                <p class="ml-4">hello@ebuddy.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-2xl font-semibold pb-5">Subscribe to our Newsletter</p>
+                        <form class="flex flex-row flex-wrap">
+                            <input type="search" placeholder="Email"
+                                class="py-2 px-4 border border-gray-300 focus:outline-none focus:border-blue-500 input-search">
+                            <button class="py-2 px-4 bg-blue-700 text-white hover:bg-blue-900">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

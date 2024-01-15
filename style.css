@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+:root{
+    ---font-main:'Lora', serif;
+    --color-primary:#38B6FF;
+    --color-text:#1F1F1F;
+    --color-text-light:#454545;
+    --color-white-1:#FCFCFC;
+    ---color-bg-white:#FBFBFB;
+    --color-grey-light:#EBEBEB;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.logo{
+    display:block;
+    height:24px;
+    width: 24px;
+    color: var(--color-text-light);
+}
+.list-logo li:not(:last-child){
+    margin-right:1rem
+}
+.list-logo .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.list-bordered{
+    display: flex;
+    align-items: center;
+}
+.list-bordered li:not(:last-child){
+    margin-right:0.75rem;
+    padding-right:0.75rem;
+    border-right:1px solid var(--color-text-light);
+}
+.nav-top{
+    border-bottom:1px solid var(--color-grey-light);
+}
+.input-search{
+    max-width: 400px;
+    border-radius:4px;
+}
+.list-nav li:not(:last-child){
+    margin-right:1.5rem
+}
+.nav-bottom{
+    background-color: var(--color-primary);
+    color:#FCFCFC
+    
+}
+.product-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.product-img{
+    height: 260px;
+    margin-bottom: 1rem;
+}
